@@ -14,7 +14,7 @@
 
         <li>
 
-            <p>{{ book.id }}. Title: {{ book.title }} | Author: {{ book.author }} | Rating: {{ book.rating }}</p> 
+            <p>{{ book.id }}. Title: {{ book.title }} | Author: {{ book.author }} | Rating: {{ book.rating }} <a href="{{ url_for('delete', id=book.id) }}">Edit Rating</a> | <a href="{{ url_for('delete', id=book.id) }}">Delete Book</a> </p> 
 
         </li>
 
