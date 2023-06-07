@@ -1,5 +1,4 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import text
 from flask import Flask, render_template, request, redirect, url_for
 
 db = SQLAlchemy()
